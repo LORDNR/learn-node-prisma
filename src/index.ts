@@ -13,7 +13,7 @@ app.use(express.json())
 app.get('/', (req: Request, res: Response) => {
     res.status(200).json({
         status: 'success',
-        message: 'Hello World!',
+        message: 'Hello World! test webhook!',
     })
 })
 
